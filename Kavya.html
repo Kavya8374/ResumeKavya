@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeKavya</title>
+</head>
+    <style>
+        :root{
+            --blue-light: #b6397a;
+            --light-clay: #3c9ca3;
+            --drak-clay: #306E82;
+            --light-dark: #272B2B;
+        }
+        .container{
+            padding: 40px 60px;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .set1{
+            padding: 40px;
+            text-align: center;
+        }
+        .set2{
+            width: 500px;
+            background-color: #f1f1f1;
+            border-radius: 2px;
+            padding: 42px 32px;
+            z-index: -2;
+        }
+        img{
+            width: 200px;
+            border-radius: 50%;
+            background-color: var(--light-clay);
+            border: 16px solid var(--drak-clay);
+        }
+        .std-name{
+            background-color: var(--drak-clay);
+            color: #fff;
+            padding: 86px 36px 60px;
+            border-radius: 16px;
+            margin-top: -86px;
+        }
+        .std-name h1{
+            font-size: 36px;
+        }
+        h1,h4{
+            padding: 0;
+            margin: 0;
+        }
+        .contact{
+            background-color: var(--light-clay);
+            border-radius: 0 0 20px 20px;
+            margin-top: -20px;
+            padding-bottom: 20px;
+        }
+        ul{
+            list-style-type: none;
+            text-align: left;
+        }
+        .contact ul{
+            padding: 20px;
+            margin-top: 0;
+        }
+        .contact ul{
+            line-height: 2.5;
+            color: #fff;
+            padding: 0 14px;
+        }
+        .contact ul li i{
+            padding-right: 10px;
+            font-size: 18px;
+        }
+        h1,h4,.title{
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        h4{
+            font-size: 14px;
+            font-weight: 200;
+        }
+        .reference ul li{
+            line-height: 2.5;
+        }
+        .reference .title{
+            text-align: left;
+        }
+        .reference .title::after{
+            content: "";
+            border-radius: 20px;
+            background-color: var(--light-clay);
+            height: 28px;
+            width: 200px;
+            position: relative;
+            top: -18px;
+            display: block;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        .set2 .title::after{
+            content: "";
+            border-radius: 20px;
+            background-color: var(--light-clay);
+            height: 28px;
+            width: 180px;
+            position: relative;
+            top: -18px;
+            display: block;
+            z-index: -1;
+            opacity: 0.4;
+
+        }
+        .skills ul li{
+            line-height: 2.5;
+        }
+        .edu-details{
+            display: flex;
+        }
+        .edu-des{
+            width: 60%;            
+        }
+        .edu-details{
+            width: 40%;
+        }
+        p{
+            font-size: 15px;
+        }
+    </style>
+<body>
+     <div class="container">
+        <div class="set1">
+            <img src="pictures/IMG_20250308_102851.jpg"height="200" width="200" alt="Kavya Gubbala">
+            <div class="std-name">
+                <h1>Kavya Gubbala</h1>
+                <h4>Frontend developer</h4>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li>8374392189</li>
+                    <li>gubbalakavya@gmail.com</li>
+                    <li>Warangal,TS</li>
+                </ul>
+            </div>
+            <div class="reference">
+                <h2 class="title">Achievements</h2>
+                <ul>
+                    <li>Hackthon Certification</li>
+                    <li>Java compeletion</li>
+                </ul>
+            </div>
+        </div>
+        <div class="set2">
+            <div class="about-me">
+                <h2  class=" title"> About me</h2>
+                <p>I am a <b><em>Computer Science</em></b> from <em><b>IT background</em></b> I am with a passion 
+                 for frontend developer I am eager to learn and apply my skills in HTML,
+                CSS,Java Script and React js to build a user friendly and visually appealing
+            web applications.Looking for an opportunity to grow as Frontend developer.</p>
+            </div>
+            <div class="Skills">
+                <h2 class="title">Skills</h2>
+                <ul>
+                    <li>C language</li>
+                    <li>Data Structures</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="education">
+                <h2 class="title">Education</h2>
+                <div class="edu-set">
+                    <div class="edu-details">
+                        <p class="edu-year"><b>2023</b><br>Hindu women's college<br>Inter</p>
+                        <p class="edu-des">I completed my Inter in Hyderabad with 90% aggregate</p>
+                    </div>
+                </div>
+                <div class="edu-details">
+                    <p class="edu-year"><b>2025</b><br>Kakatiya University<br>B.Tech</p>
+                    <p class="edu-des">I am currently pursuing B.tech 2<sup>nd</sup> year</p>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
